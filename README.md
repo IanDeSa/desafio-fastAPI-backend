@@ -36,7 +36,7 @@ Instale o meu projeto clonando do o repositório pela chave SSH.
 ```
 Entre na pasta do projeto e não esqueça de acionar o ambiente virtual para melhor experiência.
 ```bash
-  $ cd backend
+  $ cd desafio-fastAPI-backend
 ```
 O projeto usa docker-compose, agora suba o container com o docker-compose
 ```bash
