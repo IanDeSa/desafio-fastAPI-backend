@@ -1,4 +1,4 @@
-# Desafio IATECAM - Backend
+# Desafio Fullstack - Backend
 
 Projeto que propõe fazer um crud simples utilizando python com fastAPI e SQLAlchemy, onde será criado um banco de dados com mariaDB com duas tabelas: products e category. Exemplo de esboço:
 
@@ -37,6 +37,7 @@ Instale o meu projeto clonando do o repositório pela chave SSH.
 Entre na pasta do projeto e não esqueça de acionar o ambiente virtual para melhor experiência.
 ```bash
   $ cd desafio-fastAPI-backend
+  $ source .venv/bin/activate
 ```
 O projeto usa docker-compose, agora suba o container com o docker-compose
 ```bash
@@ -61,7 +62,6 @@ O projeto está em construção, algumas possíveis melhorias são futuras imple
 ## Autor
 
 - [@IanDeSa](https://github.com/IanDeSa)
-
 
 ## Feedback
 
