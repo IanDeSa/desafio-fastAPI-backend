@@ -19,14 +19,3 @@ class Category(BaseModel):
 
     class Config:
         orm_mode: True
-
-
-class ProductCategory(BaseModel):
-    id: Optional[int] = None
-    name: str
-    price: float
-    serie: int
-    category: str
-
-    class Config:
-        orm_mode: True
