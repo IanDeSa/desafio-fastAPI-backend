@@ -2,7 +2,7 @@ from fastapi import FastAPI
 
 from fastapi.middleware.cors import CORSMiddleware
 
-from infra.sqlalchemy.config.database import create_db
+# from infra.sqlalchemy.config.database import create_db
 
 from infra.sqlalchemy.routes import category
 from infra.sqlalchemy.routes import products
@@ -10,10 +10,11 @@ from infra.sqlalchemy.routes import products
 origins = ["http://localhost:4200"]
 
 
-create_db()
+# create_db()
 
 
 app = FastAPI()
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,

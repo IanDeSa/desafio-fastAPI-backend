@@ -8,11 +8,9 @@ services:
     network_mode: "default"
     environment:
         MARIADB_USER: root
-        MARIADB_ROOT_PASSWORD: password
+        MARIADB_ROOT_PASSWORD: 123456
     command:
       - "--character-set-server=utf8mb4"
       - "--collation-server=utf8mb4_unicode_ci"
-    volumes:
-      - ./local_db:/var/lib/mysql
     restart: 'always'
     platform: linux/x86_64
