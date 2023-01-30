@@ -3,7 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 SQLALCHEMY_DATABASE_URL = (
-    "mariadb+pymysql://root:123456@localhost:3306/desafio"
+    "mysql+pymysql://root:123456@127.0.0.1:3306/ihr-se"
 )
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL, echo=True)

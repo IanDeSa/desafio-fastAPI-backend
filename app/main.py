@@ -4,8 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 # from infra.sqlalchemy.config.database import create_db
 
-from infra.sqlalchemy.routes import category
-from infra.sqlalchemy.routes import products
+from .infra.sqlalchemy.routes import category, products
 
 origins = ["http://localhost:4200"]
 

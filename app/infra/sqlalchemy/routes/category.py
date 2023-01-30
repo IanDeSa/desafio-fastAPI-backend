@@ -1,10 +1,10 @@
 from fastapi import APIRouter, Depends, status, Response
 from sqlalchemy.orm import Session
 
-from infra.sqlalchemy.config.database import get_db
+from ..config.database import get_db
 
-from infra.sqlalchemy.schemas.schemas import Category
-from infra.sqlalchemy.repository.category import CategoryRepository
+from ..schemas.schemas import Category
+from ..repository.category import CategoryRepository
 
 router = APIRouter()
 
